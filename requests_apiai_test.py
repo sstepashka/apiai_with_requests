@@ -13,9 +13,9 @@ def main():
     payload = {
         'lang': 'en',
         'sessionId': '<session id>',
-        'contexts': [],
-        'resetContexts': False,
-        'timezone': None,
+        # 'contexts': [],
+        # 'resetContexts': False,
+        # 'timezone': None,
     }
 
     files = {
@@ -25,7 +25,7 @@ def main():
 
     headers = {
         'Accept': 'application/json',
-        'Accept-Encoding': 'gzip, deflate',
+        # 'Accept-Encoding': 'gzip, deflate',
         'Authorization': ('Bearer %s' % CLIENT_ACCESS_TOKEN),
         'ocp-apim-subscription-key': SUBSCRIBTION_KEY,
     }
